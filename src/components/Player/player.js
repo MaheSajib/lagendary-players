@@ -1,10 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faHandshake } from '@fortawesome/free-solid-svg-icons'
+import { faHandshake } from '@fortawesome/free-solid-svg-icons'
 import "./player.css";
 
 const player = (props) => {
-    console.log(props);
     const handlePlayerHire = props.handlePlayerHire;
 
     return (

@@ -11,7 +11,6 @@ function App() {
 
   useEffect(()=>{
     setPlayer(playersData);
-    console.log(playersData);
   }, [])
 
   const handlePlayerHire = (player) =>{
