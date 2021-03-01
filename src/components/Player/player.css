@@ -1,0 +1,13 @@
+.player-container{
+    display: flex;
+    float: left;
+}
+.player {
+    width: 300px;
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+.player img{
+    height: 100px;
+}
